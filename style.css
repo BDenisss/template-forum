@@ -35,3 +35,29 @@
     color: #F7F7F7;
 }
 
+.card__title {
+    font-family: 'Source Sans Pro';
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0 42px;
+}
+
+.card__container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 42px;
+    border-radius: 12px;
+    background: #262D34;
+}
+
+.card__name {
+    font-size: 18px;
+
+}
+
+.card__button {
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #FF6934;
+}
