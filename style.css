@@ -60,4 +60,79 @@
     font-size: 18px;
     font-weight: 500;
     background: #FF6934;
+
+}
+/* form */
+.form__container {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 860px;
+}
+
+@media (max-width: 1280px) {
+    .form__container {
+        width: 90%;
+    }
+}
+
+.form__label {
+    margin-top: 24px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .form__label {
+        font-size: 16px;
+    }
+}
+
+.form__input {
+    height: 50px;
+    padding-left: 12px;
+    border: none;
+    background-color: #2C353D;
+    border-radius: 6px;
+    &::placeholder {
+        font-size: 16px;
+        color:#858EAD;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .form__input {
+    height: 45px;
+        &::placeholder {
+            font-size: 14px;
+        }
+    }
+}
+
+.form__button {
+    padding: 12px 24px;
+    border:0;
+    background-color: #FF6934;
+    color: #fff;
+    border-radius: 6px;
+    width: fit-content;
+    font-size: 16px;
+    cursor: pointer;
+    &:hover {
+        background-color: rgb(255, 111, 71);
+    }
+    &:active {
+        background-color: #FF5B2C;
+    }
+}
+
+@media (max-width: 768px) {
+    .form__button {
+
+        font-size: 14px;
+        
+    }
 }
